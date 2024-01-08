@@ -1,6 +1,8 @@
-# kali-on-termux
-# follow steps
- $ bash install-kali.sh
- $ kali
- $ bash gui.sh
- $ kali-on-termux
+- `pkg update -y && pkg upgrade -y`
+   - `pkg install git wget -y`
+   - `git clone https://github.com/sabamdarif/modded-kali`
+   - `cd modded-kali`
+   - `bash setup.sh`
+   - `kali`
+   - `bash gui.sh`
+   - Now select **KFCE**, **KDE**, **LXDE**, **LXQT** OR **GNOME** Desktop (any one)
