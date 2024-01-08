@@ -3,7 +3,7 @@
 
 #Features:
 
- 🌐2 browsers 
+ 🌐2 browsers Firefox and chromium
  
  🎨gimp used  to graphic designers
  
