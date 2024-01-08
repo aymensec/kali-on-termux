@@ -5,4 +5,4 @@
    - `bash install-kali.sh`
    - `kali`
    - `bash gui.sh`
-   - Now select **XFCE**, **LXDE**, **LXQT**, choose Desktop (any one)
+   - then select **XFCE**, **LXDE**, **LXQT**, choose Desktop 
