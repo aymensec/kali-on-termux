@@ -5,7 +5,7 @@
 
  🌐2 browsers Firefox and chromium
  
- 🎨gimp used  to graphic designers
+ 🎨gimp used  to graphic design
  
  🎵vlc player   
  
