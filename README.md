@@ -1,7 +1,11 @@
 <center><img src="./Screenshot_20240105-175502.png"></center>
 # KaliLinux desktop in termux
-
-# installtion
+#Features:
+ 🌐2 browsers 
+ 🎨gimp used  to graphic designers
+ 🎵vlc player   
+ 🔊 sound work
+# installion
 
 - `pkg update -y && pkg upgrade -y`
    - `pkg install git wget -y`
