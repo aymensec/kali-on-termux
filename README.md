@@ -17,6 +17,8 @@
    - `pkg install git wget -y`
    - `git clone https://github.com/aymensec/kali-on-termux.git`
    - `cd kali-on-termux`
+   - `mv * $HOME`
+   - `cd $HOME`
    - `bash install-kali.sh`
    - `kali`
    - `bash gui.sh`
