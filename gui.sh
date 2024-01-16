@@ -48,7 +48,7 @@ if [ $answer = 1 ]; then
       echo " " 
       echo $CYAN[+] $BLUE"to stop desktop type ( stop-gui )"
       echo " "
-      echo $CYAN[+] $BLUE"to start kalilinux cli type ( kali )"
+      echo $CYAN[+] $BLUE"to start kalilinux cli type ( ./start-kali.sh )"
 elif [ $answer = 2 ]; then
      clear
      echo $CYAN "[+]it takes some times wait "
@@ -73,7 +73,7 @@ elif [ $answer = 2 ]; then
      echo " "
      echo $CYAN[+] $BLUE"to stop desktop type ( stop-gui )"
      echo " "
-     echo $CYAN[+] $BLUE"to start kalilinux cli type ( kali )"
+     echo $CYAN[+] $BLUE"to start kalilinux cli type ( ./start-kali.sh )"
 elif [ $answer = 3 ]; then
      clear
      echo $CYAN "[+]it takes some times wait "
@@ -98,7 +98,7 @@ elif [ $answer = 3 ]; then
      echo " "
      echo $CYAN[+] $BLUE"to stop desktop type ( stop-gui )"
      echo " "
-     echo $CYAN[+] $BLUE"to start kalilinux cli type ( kali )"
+     echo $CYAN[+] $BLUE"to start kalilinux cli type ( ./start-kali.sh )"
 else
    echo " "
    echo $RED [!] "you are not correct run script agian !"
