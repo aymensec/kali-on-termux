@@ -31,7 +31,7 @@ if [ $answer = 1 ]; then
       echo $GREEN "[+] Checking Dependencies....."
       sleep 2
       apt update && apt upgrade -y
-      apt install figlet dbus-x11 tige* tigervnc-standalone-server xfce* kali-desktop-xfce chromium vnc gimp -y
+      apt install figlet dbus-x11 tige* tigervnc-standalone-server xfce* kali-desktop-xfce chromium vlc parole inkscape gimp -y
       echo "vncserver -xstartup /usr/bin/xfce4-session" > start-gui
       chmod +x start-gui
       mv start-gui /usr/bin
@@ -56,7 +56,7 @@ elif [ $answer = 2 ]; then
      echo $GREEN "[+] Checking Dependencies....."
      sleep 2
      apt update && apt upgrade -y
-     apt install tigervnc-standalone-server kali-desktop-lxde lxde* figlet dbus-x11 tiger* chromium vlc gimp -y
+     apt install tigervnc-standalone-server kali-desktop-lxde lxde* inkscape parole figlet dbus-x11 tiger* chromium vlc gimp -y
      echo "vncserver -xstartup /usr/bin/startlxde" > start-gui
      chmod +x start-gui
      echo "vncserver -kill :1 && vncserver -kill :2" > stop-gui
@@ -81,7 +81,7 @@ elif [ $answer = 3 ]; then
      echo $GREEN "[+] Checking Dependencies....."
      sleep 2
      apt update && apt upgrade -y
-     apt install lxqt* tigervnc-standalone-server kali-wallpapers kali-themes tiger* dbus-x11 figlet firefox-esr gimp vlc  -y
+     apt install lxqt* tigervnc-standalone-server kali-wallpapers chromium parole kali-themes tiger* dbus-x11 figlet firefox-esr gimp vlc  -y
      echo "vncserver -xstartup /usr/bin/startlxqt" > start-gui
      chmod +x start-gui
      mv start-gui /usr/bin
