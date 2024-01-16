@@ -20,6 +20,6 @@
    - `mv * $HOME`
    - `cd $HOME`
    - `bash install-kali.sh`
-   - `kali`
+   - `./start-kali.sh`
    - `bash gui.sh`
    - then select **XFCE**, **LXDE**, **LXQT**, choose Desktop 
